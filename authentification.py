@@ -25,8 +25,6 @@ linkedin = oauth.remote_app(
 
 @app.route('/')
 def index():
-    if 'linkedin_token' in session:
-        return redirect("http://prodageo.insa-rouen.fr/")
     return redirect(url_for('login'))
 
 
