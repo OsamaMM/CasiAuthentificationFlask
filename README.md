@@ -1,17 +1,9 @@
 # CasiAuthentificationFlask
 
 ## Installation
-Pour faire tourner l'application, il faut installer Flask et lask-OAuthlib:
+Pour faire tourner l'application, il faut installer les requirements:
 
-    $ pip install Flask
-
-    $ pip install Flask-OAuthlib
-
-    $ pip install Flask-HTTPAuth
-
-    $ pip install Flask-SQLAlchemy
-
-    $ pip install passlib
+    $ pip install -r requirements.txt
 
 ## Exécution
 Ouvrir un terminal dans l'emplacement du repo et exécuter:

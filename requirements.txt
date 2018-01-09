@@ -1,0 +1,5 @@
+Flask
+Flask-OAuthlib
+Flask-HTTPAuth
+Flask-SQLAlchemy
+passlib
