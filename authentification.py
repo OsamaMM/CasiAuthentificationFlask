@@ -11,6 +11,7 @@ app.debug = True
 app.config['SECRET_KEY'] = 'casi'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 oauth = OAuth(app)
 
 # extensions
