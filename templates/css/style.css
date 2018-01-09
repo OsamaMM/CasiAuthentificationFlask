@@ -38,62 +38,12 @@ body .highlight {
   overflow: hidden;
 }
 
-.header ul{
-  padding:0;
-  margin:0;
-}
-
 .dark{
   padding:15px;
   background:#35424a;
   color:#ffffff;
   margin-top:40px;
   margin-bottom:10px;
-}
-
-header a{
-  color:#565151;
-  text-decoration:none;
-  text-transform: full-width;
-  font-size:20px;
-}
-
-header li{
-  float: left;
-  display: inline;
-  padding:0 18px 0 18px;
-}
-
-header .Logo{
-  float: left;
-}
-
-header nav{
-  float: right;
-  padding-top:18px;
-}
-
-header .highlight{
-  color:#A7A7A7;
-}
-
-header .Famila{
-  color:#E3A603;
-}
-
-header .Famila, header .current a{
-  color:#E3A603;
-}
-
-header a:hover{
-  color:#FAD97E;
-  font-weight:bold;
-  -webkit-transition:#FDE9BC 2s ease-out;
-}
-
-header a{
-  transition: all 300ms ease-in-out 0.1s;
-  font-weight: bold;
 }
 
 /*showcase*/
@@ -124,29 +74,6 @@ section .cheers {
   margin-top:650px;
   font-size:55px;
   margin-bottom:60px;
-}
-
-footer p{
-  margin-top:35px;
-  text-align:center;
-  color:#E3A603;
-}
-
-/*About-section*/
-
-#About-main h1{
-  font: 35px/2 Courier, sans-serif;
-  font-weight:bolder;
-  text-align:center;
-  color:#E39D44;
-  letter-spacing:3px;
-  text-decoration:underline;
-}
-
-#About-main p{
-  font: 20px/2 Arial, sans-serif;
-  text-align:center;
-  color:#595555;
 }
 
 /*login-boxes*/

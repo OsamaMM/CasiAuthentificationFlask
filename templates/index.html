@@ -45,6 +45,51 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+.button1 {
+  background:transparent;
+  border:none;
+  border-bottom:1px;
+  outline:none;
+  background:#ffffff;
+  padding:17px 50px;
+  cursor:pointer;
+  border-radius:6px;
+  margin-bottom:20px;
+  font-weight:bolder;
+  font-size:20px;
+}
+
+.button1:hover{
+  background:#df3f4d;
+  color: #ffffff;
+  transition:400ms ease-in-out 0.1s;
+}
+
+.button2 {
+  background:transparent;
+  border:none;
+  border-bottom:1px;
+  outline:none;
+  background:#ffffff;
+  padding:17px 50px;
+  cursor:pointer;
+  border-radius:6px;
+  margin-bottom:20px;
+  font-weight:bolder;
+  font-size:20px;
+}
+
+.button2:hover{
+  background:#31698a;
+  color: #ffffff;
+  transition:400ms ease-in-out 0.1s;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
+}
+
 </style>
 </head>
 <body>
@@ -52,12 +97,12 @@ h3 {
 <div class="bgimg-1">
   <div class="caption">
     <form action="/signup" method="get">
-      <button class="border" type="submit">Sign up</button>
+      <button class="button1" type="submit">Sign up</button>
     </form>
     <form action="/linkedinLogin" method="get">
-      <button class="border" type="submit">Continue with Linkedin</button>
+      <button class="button2" type="submit">Continue with Linkedin</button>
     </form>
-    <a href="/directLogin">already have an account? log in</a>
+    <a href="/directLogin">Already have an account? log in</a>
   </div>
 </div>
 </body>
