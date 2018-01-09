@@ -80,7 +80,7 @@ def successful_login():
     password = request.form['password']
     user = User.query.filter_by(email=email).first()
     if not user or not user.verify_password(password):
-        return redirect(url_for('direct_login'))
+        return redirect(url_for('signup'))
     return redirect("http://prodageo.insa-rouen.fr/")
 
 @app.route('/successfulSignup', methods=['POST'])
